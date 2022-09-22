@@ -6,4 +6,149 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.main-content {
+    height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
+
+.left-content {
+    background-color: #535957;
+}
+
+.right-main-content {
+    background-color: rgb(251, 251, 251);
+}
+
+.left-content {
+    padding: 1rem;
+}
+
+.profile-pic {
+    width: 60%;
+    border: 5px solid white;
+    border-radius: 30%;
+    display: block;
+    margin: auto;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    letter-spacing: 0.02px;
+}
+
+.designation {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+.description {
+    color: #fff;
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    line-height: 1.8;
+}
+
+.contact-item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-details {
+    color: #fff;
+    margin-top: 0.8rem;
+}
+
+.contact-label {
+    font-size: 0.8rem;
+}
+
+.icon {
+    margin: 0 0.5rem;
+}
+
+.email, .phone, .location {
+    display: flex;
+    margin-bottom: 0.3rem;
+}
+
+.skills {
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.skill {
+    font-size: 0.65rem;
+    padding: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Write CSS code below */
