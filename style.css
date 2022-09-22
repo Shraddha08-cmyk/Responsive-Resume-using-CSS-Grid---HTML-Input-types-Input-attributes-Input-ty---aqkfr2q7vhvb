@@ -6,25 +6,30 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.main-content {
-    height: 1000px;
+.main-content{
+    min-height: 1000px;
     width: 90%;
     margin: 20px auto;
     display: grid;
     grid-template-columns: 300px 700px;
 }
 
-.left-content {
-    background-color: #535957;
+.left-section{
+    grid-column: span 1;
+    background-color: #242531;
 }
 
-.right-main-content {
-    background-color: rgb(251, 251, 251);
+.right-section{
+    grid-column: span 1 / span 2;
+    background-color: #f7f7f7;
 }
 
-.left-content {
+
+.left-content{
     padding: 1rem;
+    color: #f7f7f7;
 }
+
 
 .profile-pic {
     width: 60%;
@@ -44,11 +49,11 @@
     letter-spacing: 0.02px;
 }
 
-.designation {
+.designation{
     font-size: 1rem;
     text-align: center;
-    padding: 1rem;
-    color: white;
+    text-transform: uppercase;
+    padding-bottom: .5rem;
 }
 
 .description {
@@ -92,20 +97,53 @@
     padding-right: 0.5rem;
 }
 
-.skill {
-    font-size: 0.65rem;
-    padding: 0.5rem;
+.skill-name{
+    font-size: .65rem;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: .5rem;
+    margin-top: 1rem;
+}
+
+.progress-bar{
+    border: 1px solid white;
+    height: 4px;
+    background-color: white;
 }
 
 
+.progress-css {
+    height: 4px;
+    border: 1px solid white;
+    background-color: #fff;
+    width: 59%;
+}
+
+.progress-dsa {
+    height: 4px;
+    border: 1px solid white;
+    background-color: #fff;
+    width: 90%;
+}
+
+.right-main-content{
+    padding: 2rem 3rem;
+}
 
 
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: .5rem;
+    letter-spacing: 1px;
+}
 
-
-
-
-
-
+@media screen and(max-width: 673px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 
 
